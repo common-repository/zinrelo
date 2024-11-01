@@ -1,0 +1,120 @@
+.zinrelo-earn-product-points {
+	display: flow;
+	width: 100%;
+	margin-top: 6rem;
+}
+
+.zinrelo-earn-product-points div[data-zrl-product-points] {
+	margin: 3px;
+	display: inline-block;
+	color: #2f2c2c;
+	font-weight: bold;
+}
+.reward-point {
+	width: 75%;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 4%;
+	margin-top: 2%;
+	padding-bottom: 25px;
+}
+
+ul.woocommerce-error li {
+	margin-left: 39px !important;
+}
+
+.redeem-reward-selector {
+	float: left !important;
+	margin-top: 10px !important;
+	width: 40% !important;
+	padding:9px !important;
+}
+
+.redeem {
+	background: #d5e9dc !important;
+	border: 1px solid #b7b7b7 !important;
+	box-sizing: border-box !important;
+	color: #2d2d2d !important;
+	cursor: pointer !important;
+	display: inline-block !important;
+	float: left !important;
+	font-size: 1rem !important;
+	font-weight: 400 !important;
+	line-height: 1.6rem !important;
+	margin-top: 10px !important;
+	vertical-align: middle !important;
+}
+
+.redeem:hover {
+	background-color: #b7b7b7 !important;
+	border-color: #b3aeae !important;
+}
+
+.cancel {
+	background: #d5e9dc !important;
+	border: 1px solid #b7b7b7 !important;
+	box-sizing: border-box !important;
+	color: #2d2d2d !important;
+	cursor: pointer !important;
+	display: inline-block !important;
+	float: left !important;
+	font-size: 1.4rem !important;
+	font-weight: 600 !important;
+	line-height: 1.6rem !important;
+	margin-top: 10px !important;
+	vertical-align: middle !important;
+}
+
+.cancel:hover {
+	background-color: #b7b7b7 !important;
+	border-color: #b3aeae !important;
+}
+
+.zinrelo-earn-product-points > div {
+	color: #f55;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.redeem:hover:disabled {
+	cursor: wait;
+}
+.redeem:active:disabled {
+	cursor: wait;
+}
+.cancel-redeem:hover:disabled {
+	cursor: wait;
+}
+.cancel-redeem:active:disabled {
+	cursor: wait;
+}
+
+#loader.woocommerce-spinner {
+	position: fixed;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+#loader.woocommerce-spinner::before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(0, 0, 0, 0.2);
+	border-top-color: #333;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
